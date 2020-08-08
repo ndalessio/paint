@@ -47,7 +47,7 @@ h1{
 .pixel {
     flex-grow: 1;
     height: 100%;
-    outline: 1px solid black;
+    outline: 1px solid white;
     user-select: none;
     background-color: white;
 }
