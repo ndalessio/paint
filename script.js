@@ -45,8 +45,7 @@ const selectColor = (color) => {
     selected.style.backgroundColor = actualColor;
 }
 
-// Grill
-
+// Grill functions
 grill.onclick = () => {
     if (event.target.classList.contains("pixel")){
         event.target.style.backgroundColor = actualColor;
@@ -71,7 +70,6 @@ document.onmousedown = () => {
 }
 
 // Buttons
-
 deleteButton.onclick = () => {
     for(let pixel of pixels){
         pixel.style.backgroundColor = "White";

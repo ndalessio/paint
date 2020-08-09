@@ -25,18 +25,11 @@ h1{
     color:white;
 }
 
-.subtitle{
-    font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 500;
-    color: white;
-    margin: 5px;
-}
-
 .container{
     display: flex;
 }
-/* Gril */
+
+/* Grill */
 
 #grill{
     max-width: 800px;
@@ -62,7 +55,6 @@ h1{
 }
 
 /* Panel */
-
 #panel{
     width: 30%;
     display: flex;
@@ -73,7 +65,38 @@ h1{
     border-radius: 50%;
 }
 
-#selected{
+/* Pallete */
+#pallete{
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: grey; */
+}
+
+.color {
+    width: 20px;
+    height: 20px;
+    /* outline: 1px solid black; */
+    border-radius: 5px;
+    margin: 2px;
+    transition: all 0.2s;
+}
+
+.color:hover{
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 10px -1px rgba(178,178,178,0.96); 
+    box-shadow: 0px 0px 10px -1px rgba(178,178,178,0.96);
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: white;
+    margin: 5px;
+}
+
+#selected {
     width: 30px;
     height: 30px;
     border-radius: 25%;
@@ -82,9 +105,15 @@ h1{
     margin: 5px 5px 20px 5px;
 }
 
+/* @media all and (max-width:30em){
+     button4{
+      display:block;
+      margin:0.2em auto;
+} */
+
 /* Buttons */
 
-button{
+button {
     background: rgb(59, 59, 59);
     height: 40px;
     min-width: 30px;
@@ -113,33 +142,48 @@ button:hover{
     background-color: rgb(136, 69, 69);
 }
 
-/* @media all and (max-width:30em){
-     button4{
-      display:block;
-      margin:0.2em auto;
-     } */
+@media (max-width: 529px){
+    h1{
+        font-size: 15px;
+    }
+    .container{
+        flex-direction:column;
+    }
 
-/* Pallete */
-#pallete{
-    margin-bottom: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    /* background-color: grey; */
+    #grill{
+        width: 100%;
+        height: 270px;
+    }
+
+    #panel{
+        width: 100%;
+        height: 50%;
+        /* flex-direction: row; */
+    }
+
+    #pallete{
+        margin: 5px;
+    }
+
+    .color{
+        width: 12px;
+        height: 12px;
+        border-radius: 3px;
+        margin: 2px;
+    }
+
+    p{
+        display: none;
+    }
+
+    #selected{
+        width: 15px;
+        height: 15px;
+        margin: 5px;
+    }
+
+    button{
+        height: 20px;
+        font-size: 15px;
+    }
 }
-
-.color {
-    width: 20px;
-    height: 20px;
-    /* outline: 1px solid black; */
-    border-radius: 5px;
-    margin: 2px;
-    transition: all 0.2s;
-}
-
-.color:hover{
-    cursor: pointer;
-    -webkit-box-shadow: 0px 0px 10px -1px rgba(178,178,178,0.96); 
-    box-shadow: 0px 0px 10px -1px rgba(178,178,178,0.96);
-}
-
-
