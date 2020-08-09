@@ -1,4 +1,4 @@
-const colors = ["Lightcoral", "Salmon", "Lightsalmon", "Pink", "Lightpink", "Hotpink", "Deeppink", "Violet","Mediumvioletred", "Red", "Firebrick", "Darkred", "Orange", "Darkorange", "Yellow", "Lightyellow", "Lemonchiffon", "Greenyellow", "Lawngreen", "Lime", "Limegren", ""]
+const colors = ["Lightcoral", "Salmon", "Lightsalmon",  "Pink", "Lightpink", "Hotpink", "Deeppink", "Tomato","Red","Firebrick", "Darkred", "OrangeRed", "Orange", "Darkorange", "Goldenrod", "Gold", "Yellow", "Lightyellow", "Lemonchiffon", "Greenyellow", "Lawngreen", "Lime", "LimeGreen", "Green", "DarkGreen", "ForestGreen", "SeaGreen", "MediumSeaGreen", "MediumSpringGreen", "Turquoise", "LightSeaGreen", "DarkCyan", "Teal", "CornflowerBlue", "SteelBlue", "RoyalBlue", "MidnightBlue", "Navy", "MediumBlue", "DarkSlateGrey", "SlateGrey", "DarkGrey", "Silver", "LightGrey", "Gainsboro", "Plum", "Violet","Orchid", "MediumPurple", "DarkViolet", "Purple", "Indigo", "Black", "White"]
 
 const pallete = document.getElementById("pallete");
 const selected = document.getElementById("selected");
