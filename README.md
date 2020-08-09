@@ -1,3 +1,3 @@
 # paint
 
-Play with it here: https://ndalessio.github.io/paint/
+Check it out: https://ndalessio.github.io/paint/
